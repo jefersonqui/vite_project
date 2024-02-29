@@ -4,7 +4,8 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     './pages/**/*.{html,js}',
-    './components/**/*.{html,js}',
+    './components/**/*.{html,js,css}',
+    './styles/**/*.{css}'
   ],
   theme: {
     extend: {
@@ -12,6 +13,7 @@ export default {
         'primary': '#5c059b',
         'secondary': '#1E293d',
         "acent": '#CB5930'
+        
       }
     },
   },

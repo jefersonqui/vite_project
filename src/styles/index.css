@@ -1,0 +1,11 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;   */
+
+@import "./normalize.css";
+body {
+    margin: 0;
+    background: rgba(66, 100, 211, 0.342);
+   
+    
+  }
